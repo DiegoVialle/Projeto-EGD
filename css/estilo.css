@@ -1,0 +1,43 @@
+.logo {
+    margin-top: 20px;
+}
+h2 {
+    margin-top: 15px;
+}
+body {
+    font-family: 'Open Sans', sans-serif;
+    color: #888;
+    font-size: 13px;
+    font-weight: 400;
+}
+.form-control {
+    width: 90%;
+    margin-bottom: 3px;
+    margin-left: 10px;
+    height: 34px;
+    font-family: 'Open Sans', sans-serif;
+    color: #888;
+    font-size: 13px;
+    font-weight: 400;
+}
+.form-check-input {
+    margin-left: 0px;
+    margin-bottom: 0px;
+    margin-top: 2px;
+}
+.form-check-label {
+    margin-left: 20px;
+}
+.btn-primary {
+    margin-bottom: 20px;
+    margin-left: 20px;
+    margin-top: 20px;
+    }
+.font-weight-bold {
+    color: black;
+}
+#botaoEnviar {
+    margin-bottom: 20px;
+    margin-left: 0px;
+    margin-top: 0px;
+}
