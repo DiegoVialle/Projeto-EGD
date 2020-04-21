@@ -4,24 +4,27 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width">
-    <title>Página Única</title>
-    <link rel="stylesheet" href="css/bootstrap.css">
-    <link rel="stylesheet" href="css/estilo.css">
+    <title>Formulário</title>
+    <link rel="stylesheet" href="./css/bootstrap.css">
+    <link rel="stylesheet" href="./css/estilo.css">
 </head>
 
 <body>
     <header>
         <div class="row gradiente" id="corLogo">
-            <img src="css/EGD PEQUENO.jpg" class="logo rounded mx-auto d-block" alt="Imagem responsiva">
+            <img src="./css/EGD PEQUENO.jpg" class="logo rounded mx-auto d-block" alt="Imagem responsiva">
         </div>
         <div class="cabecalho" align=center>
-            <h2>Formulário Cadastral de Análises</h2>
-            <p class="font-weight-bold">Locatário Fiador</p>
+            <br>
+            <br>
+            <h4>Formulário Cadastral de Análises</h4>
         </div>
+        <br>
+        <br>
     </header>
     <main>
         <div class="container">
-            <form action="gravar.php" method="post">
+            <form action="locatario.php" method="post">
                 <div class="accordion" id="accordionExample">
                     <div class="card">
                         <div class="card-header" id="headingTwo">
@@ -38,19 +41,19 @@
                                 <div class="row">
                                     <div class="col-sm-3 col-xs-12 form-group">
                                         <label for="cpf">CPF</label>
-                                        <input id="cpf" type="text" class="form-control" placeholder="" 
+                                        <input id="cpf" type="text" class="form-control" placeholder="" required
                                             name="cpflocatario">
                                     </div>
                                     <div class="col-sm-9 col-xs-12 form-group">
                                         <label for="nomecompleto">Nome Completo</label>
                                         <input id="nomecompleto" type="text" class="form-control" placeholder=""
-                                             name="nomecompletolocatario">
+                                            required name="nomecompletolocatario">
                                     </div>
                                 </div>
                                 <div class="row">
                                     <div class="col-sm-3 col-xs-6 form-group">
                                         <label for="exampleFormControlSelect1">Tipo de Documento</label>
-                                        <select class="form-control" id="exampleFormControlSelect1" 
+                                        <select class="form-control" id="exampleFormControlSelect1" required
                                             name="ControlSelect1locatario">
                                             <option>--</option>
                                             <option>RG</option>
@@ -62,38 +65,39 @@
                                     </div>
                                     <div class="col-sm-3 col-xs-6 form-group">
                                         <label class="" for="numero">Número</label>
-                                        <input id="numero" type="text" class="form-control" placeholder="" 
+                                        <input id="numero" type="text" class="form-control" placeholder="" required
                                             name="numerolocatario">
                                     </div>
                                     <div class="col-sm-3 col-xs-6 form-group">
                                         <label for="orgaoexp.">Órgão Exp.</label>
-                                        <input id="orgaoexp." type="text" class="form-control" placeholder="" 
+                                        <input id="orgaoexp." type="text" class="form-control" placeholder="" required
                                             name="orgaolocatario">
                                     </div>
                                     <div class="col-sm-3 col-xs-6 form-group">
                                         <label for="dataemissao">Data de Emissão</label>
-                                        <input id="dataemissao" type="date" class="form-control" placeholder="" 
+                                        <input id="dataemissao" type="text" class="form-control" placeholder="" required
                                             name="datadeemissaolocatario">
                                     </div>
                                 </div>
                                 <div class="row">
                                     <div class="col-sm-3 col-xs-6 form-group">
                                         <label class="" for="datadenascimento">Data de Nascimento</label>
-                                        <input id="datadenascimento" type="date" class="form-control" placeholder=""
-                                             name="datadenascimentolocatario">
+                                        <input id="datadenascimento" type="text" class="form-control" placeholder=""
+                                            required name="datadenascimentolocatario">
                                     </div>
                                     <div class="col-sm-3 col-xs-6 form-group">
                                         <label for="nacionalidade">Nacionalidade</label>
                                         <input id="nacionalidade" type="text" class="form-control" placeholder=""
-                                             name="nacionalidadelocatario">
+                                            required name="nacionalidadelocatario">
                                     </div>
                                     <div class="col-sm-3 col-xs-6 form-group">
                                         <label for="exampleFormControlSelect1">Estado Civil</label>
-                                        <select class="form-control" id="exampleFormControlSelect1" 
+                                        <select class="form-control" id="exampleFormControlSelect1" required
                                             name="estadocivillocatario">
                                             <option>--</option>
                                             <option>Solteiro</option>
                                             <option>Casado</option>
+                                            <option>Separado</option>
                                             <option>Divorciado</option>
                                             <option>Viúvo</option>
                                             <option>União Estável</option>
@@ -101,32 +105,38 @@
                                     </div>
                                     <div class="col-sm-3 col-xs-6 form-group">
                                         <label for="profissao">Profissão</label>
-                                        <input id="profissao" type="text" class="form-control" placeholder="" 
+                                        <input id="profissao" type="text" class="form-control" placeholder="" required
                                             name="profissaolocatario">
                                     </div>
                                 </div>
                                 <div class="row">
-                                    <div class="col-sm-3 col-xs-6 form-group">
-                                        <label class="" for="telefone/celular">Telefone / Celular</label>
-                                        <input id="telefoneCelular" type="text" class="form-control"
+                                    <div class="col-sm-2 col-xs-6 form-group">
+                                        <label class="" for="telefone">Telefone</label>
+                                        <input id="telefonelocatario" type="text" class="form-control"
                                             pattern="\([0-9]{2}\)[\s][0-9]{4}-[0-9]{4,5}" placeholder="" 
                                             name="telefonelocatario">
                                     </div>
+                                    <div class="col-sm-2 col-xs-6 form-group">
+                                        <label class="" for="celular">Celular</label>
+                                        <input id="celularlocatario" type="text" class="form-control"
+                                            pattern="\([0-9]{2}\)[\s][0-9]{4}-[0-9]{4,5}" placeholder="" required
+                                            name="celularlocatario">
+                                    </div>
                                     <div class="col-sm-4 col-xs-6 form-group">
                                         <label for="email">E-mail</label>
-                                        <input id="email" type="email" class="form-control" placeholder="" 
+                                        <input id="email" type="email" class="form-control" placeholder="" required
                                             name="emaillocatario">
                                     </div>
                                     <div class="col-sm-4 col-xs-6 form-group">
-                                        <label for="cpfconjuge">CPF do conjuge/companheiro</label>
-                                        <input id="cpfconjuge" type="text" class="form-control" placeholder="" 
+                                        <label for="cpfconjugelocatario">CPF do conjuge/companheiro</label>
+                                        <input id="cpfconjugelocatario" type="text" class="form-control" placeholder=""
                                             name="cpfconjugelocatario">
                                     </div>
                                 </div>
                                 <div class="row">
                                     <div class="col-sm-3 col-xs-6 form-group">
                                         <label for="exampleFormControlSelect1">Vínculo Empregatício</label>
-                                        <select class="form-control" id="exampleFormControlSelect1" 
+                                        <select class="form-control" id="exampleFormControlSelect1" required
                                             name="ControlSelect2locatario">
                                             <option>--</option>
                                             <option>Aposentado/Pensionista</option>
@@ -134,14 +144,14 @@
                                             <option>Empresário</option>
                                             <option>Estudante</option>
                                             <option>Funcionário Público</option>
-                                            <option>Funcionário Público c/ CLT</option>
+                                            <option>Funcionário CLT</option>
                                             <option>Profissional Liberal</option>
                                             <option>Renda Proveniente de Aluguéis</option>
                                         </select>
                                     </div>
                                     <div class="col-sm-3 col-xs-6 form-group">
                                         <label class="" for="salario">Salário</label>
-                                        <input id="salario" type="text" class="form-control" data-thousands="."
+                                        <input id="salario" type="text" class="form-control" data-thousands="." required
                                             data-decimal="," data-prefix="R$ " placeholder="" name="salariolocatario">
                                     </div>
                                     <div class="col-sm-3 col-xs-6 form-group">
@@ -165,14 +175,20 @@
                                 </div>
                                 <div class="row form-group">
                                     <div class="col-sm-3 col-xs-6 form-group">
-                                        <label for="cepAtual">Cep Atual de Residência</label>
-                                        <input id="cepAtual" type="text" class="form-control" placeholder=""
+                                        <label for="cepatuallocatario">Cep Atual de Residência</label>
+                                        <input id="cepatuallocatario" type="text" class="form-control" placeholder=""
                                             name="cepatuallocatario">
                                     </div>
-                                    <div class="col-sm-9 col-xs-6 form-group">
+                                    <div class="col-sm-7 col-xs-6 form-group">
                                         <label for="referencias">Referências Pessoais</label>
                                         <input id="referencias" type="text" class="form-control" placeholder=""
                                             name="referenciaslocatario">
+                                    </div>
+                                    <div class="col-sm-2 col-xs-6 form-group">
+                                        <label class="" for="telefonereferencia">Telefone / Celular</label>
+                                        <input id="telefonereferencia" type="text" class="form-control"
+                                            pattern="\([0-9]{2}\)[\s][0-9]{4}-[0-9]{4,5}" placeholder="" 
+                                            name="telefonereferencia">
                                     </div>
                                 </div>
                                 <div class="row form-group">
@@ -190,8 +206,9 @@
                                 </div>
                                 <div class="row form-group">
                                     <div class="form-check form-group">
-                                        <input class="form-check-input" type="checkbox" id="inlineCheckbox8"
-                                            value="option8" onclick="marcaDesmarca(this)" name="checkboxlocatario">
+                                        <input class="form-check-input" type="checkbox"
+                                            value="Concordo com as condições" name="checkboxlocatario" required>
+
                                         <label class="form-check-label text-danger" for="inlineCheckbox8">Li
                                             e estou de acordo
                                             com
@@ -204,12 +221,14 @@
                         </div>
                     </div>
                 </div>
+            </form>
+            <form action="fiador.php" method="post">
                 <div class="accordion" id="accordionExample">
                     <div class="card">
                         <div class="card-header" id="headingOne">
                             <h5 class="mb-0">
                                 <button class="btn btn-link" type="button" data-toggle="collapse"
-                                    data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                    data-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
                                     Fiador
                                 </button>
                             </h5>
@@ -245,7 +264,7 @@
                                     <div class="col-sm-3 col-xs-6 form-group">
                                         <label class="" for="numero">Número</label>
                                         <input id="numero" type="text" class="form-control" placeholder="" required
-                                            name="numero1">
+                                            name="numero">
                                     </div>
                                     <div class="col-sm-3 col-xs-6 form-group">
                                         <label for="orgaoexp.">Órgão Exp.</label>
@@ -253,15 +272,15 @@
                                             name="orgao">
                                     </div>
                                     <div class="col-sm-3 col-xs-6 form-group">
-                                        <label for="dataemissao">Data de Emissão</label>
-                                        <input id="dataemissao" type="date" class="form-control" placeholder="" required
+                                        <label for="dataemissaofiador">Data de Emissão</label>
+                                        <input id="dataemissaofiador" type="text" class="form-control" placeholder="" required
                                             name="dataemissao">
                                     </div>
                                 </div>
                                 <div class="row">
                                     <div class="col-sm-3 col-xs-6 form-group">
-                                        <label class="" for="datadenascimento">Data de Nascimento</label>
-                                        <input id="datadenascimento" type="date" class="form-control" placeholder=""
+                                        <label for="datadenascimentofiador">Data de Nascimento</label>
+                                        <input id="datadenascimentofiador" type="text" class="form-control" placeholder=""
                                             required name="datadenascimento">
                                     </div>
                                     <div class="col-sm-3 col-xs-6 form-group">
@@ -272,10 +291,11 @@
                                     <div class="col-sm-3 col-xs-6 form-group">
                                         <label for="exampleFormControlSelect2">Estado Civil</label>
                                         <select class="form-control" id="exampleFormControlSelect2" required
-                                            name="ControlSelect2">
+                                            name="estadocivil">
                                             <option>--</option>
                                             <option>Solteiro</option>
                                             <option>Casado</option>
+                                            <option>Separado</option>
                                             <option>Divorciado</option>
                                             <option>Viúvo</option>
                                             <option>União Estável</option>
@@ -288,11 +308,17 @@
                                     </div>
                                 </div>
                                 <div class="row">
-                                    <div class="col-sm-3 col-xs-6 form-group">
-                                        <label class="" for="telefone/celular">Telefone / Celular</label>
-                                        <input id="telefoneCelularFiador" type="text" class="form-control"
+                                    <div class="col-sm-2 col-xs-6 form-group">
+                                        <label class="" for="telefonefiador">Telefone</label>
+                                        <input id="telefonefiador" type="text" class="form-control"
+                                            pattern="\([0-9]{2}\)[\s][0-9]{4}-[0-9]{4,5}" placeholder="" 
+                                            name="telefonefiador">
+                                    </div>
+                                    <div class="col-sm-2 col-xs-6 form-group">
+                                        <label class="" for="celularfiador">Celular</label>
+                                        <input id="celularfiador" type="text" class="form-control"
                                             pattern="\([0-9]{2}\)[\s][0-9]{4}-[0-9]{4,5}" placeholder="" required
-                                            name="telefoneCelular">
+                                            name="celularfiador">
                                     </div>
                                     <div class="col-sm-4 col-xs-6 form-group">
                                         <label for="email">E-mail</label>
@@ -302,61 +328,115 @@
                                     <div class="col-sm-4 col-xs-6 form-group">
                                         <label for="cpfconjuge">CPF do conjuge/companheiro</label>
                                         <input id="cpfconjugeFiador" type="text" class="form-control" placeholder=""
-                                            required name="cpfconjuge">
+                                             name="cpfconjuge">
                                     </div>
                                 </div>
                                 <div class="row">
-                                    <p class="font-weight-bold">Imóvel Caucionado</p>
+                                    <p class="font-weight-bold" id="imovelcaucionado">Imóvel Caucionado 1</p>
                                 </div>
                                 <div class="row">
                                     <div class="col-sm-6 col-xs-6 form-group">
                                         <label for="endereco">Endereço</label>
                                         <input id="endereco" type="text" class="form-control" placeholder="" required
-                                            name="endereco">
+                                            name="endereco1">
                                     </div>
                                     <div class="col-sm-2 col-xs-6 form-group">
                                         <label for="numero">Número</label>
                                         <input id="numero" type="text" class="form-control" placeholder="" required
-                                            name="numero2">
+                                            name="numero1">
                                     </div>
                                     <div class="col-sm-4 col-xs-6 form-group">
                                         <label for="complemento">Complemento</label>
                                         <input id="complemento" type="text" class="form-control" placeholder="" required
-                                            name="complemento">
+                                            name="complemento1">
                                     </div>
                                 </div>
                                 <div class="row">
                                     <div class="col-sm-4 col-xs-6 form-group">
                                         <label for="bairro">Bairro</label>
                                         <input id="bairro" type="text" class="form-control" placeholder="" required
-                                            name="bairro">
+                                            name="bairro1">
                                     </div>
                                     <div class="col-sm-4 col-xs-6 form-group">
                                         <label for="cidade">Cidade</label>
                                         <input id="cidade" type="text" class="form-control" placeholder="" required
-                                            name="cidade">
+                                            name="cidade1">
                                     </div>
                                     <div class="col-sm-2 col-xs-6 form-group">
                                         <label for="estado">Estado</label>
                                         <input id="estado" type="text" class="form-control" placeholder="" required
-                                            name="estado">
+                                            name="estado1">
                                     </div>
                                     <div class="col-sm-2 col-xs-6 form-group">
                                         <label for="cep">CEP</label>
-                                        <input id="cepFiador" type="text" class="form-control" placeholder="" required
-                                            name="cep">
+                                        <input id="cepCaucionado1" type="text" class="form-control" placeholder="" required
+                                            name="cep1">
                                     </div>
                                 </div>
                                 <div class="row form-group">
                                     <div class="col-sm-6 col-xs-6 form-group">
                                         <label for="iptu">Inscrição IPTU</label>
                                         <input id="iptu" type="text" class="form-control" placeholder="" required
-                                            name="iptu">
+                                            name="iptu1">
                                     </div>
                                     <div class="col-sm-6 col-xs-6 form-group">
                                         <label for="cartório">Cartório de Imóveis</label>
                                         <input id="cartório" type="text" class="form-control" placeholder="" required
-                                            name="cartorio">
+                                            name="cartorio1">
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <p class="font-weight-bold" id="imovelcaucionado">Imóvel Caucionado 2</p>
+                                </div>
+                                <div class="row">
+                                    <div class="col-sm-6 col-xs-6 form-group">
+                                        <label for="endereco">Endereço</label>
+                                        <input id="endereco" type="text" class="form-control" placeholder="" 
+                                            name="endereco2">
+                                    </div>
+                                    <div class="col-sm-2 col-xs-6 form-group">
+                                        <label for="numero">Número</label>
+                                        <input id="numero" type="text" class="form-control" placeholder="" 
+                                            name="numero2">
+                                    </div>
+                                    <div class="col-sm-4 col-xs-6 form-group">
+                                        <label for="complemento">Complemento</label>
+                                        <input id="complemento" type="text" class="form-control" placeholder="" 
+                                            name="complemento2">
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-sm-4 col-xs-6 form-group">
+                                        <label for="bairro">Bairro</label>
+                                        <input id="bairro" type="text" class="form-control" placeholder="" 
+                                            name="bairro2">
+                                    </div>
+                                    <div class="col-sm-4 col-xs-6 form-group">
+                                        <label for="cidade">Cidade</label>
+                                        <input id="cidade" type="text" class="form-control" placeholder="" 
+                                            name="cidade2">
+                                    </div>
+                                    <div class="col-sm-2 col-xs-6 form-group">
+                                        <label for="estado">Estado</label>
+                                        <input id="estado" type="text" class="form-control" placeholder="" 
+                                            name="estado2">
+                                    </div>
+                                    <div class="col-sm-2 col-xs-6 form-group">
+                                        <label for="cep">CEP</label>
+                                        <input id="cepCaucionado2" type="text" class="form-control" placeholder="" 
+                                            name="cep2">
+                                    </div>
+                                </div>
+                                <div class="row form-group">
+                                    <div class="col-sm-6 col-xs-6 form-group">
+                                        <label for="iptu">Inscrição IPTU</label>
+                                        <input id="iptu" type="text" class="form-control" placeholder="" 
+                                            name="iptu2">
+                                    </div>
+                                    <div class="col-sm-6 col-xs-6 form-group">
+                                        <label for="cartório">Cartório de Imóveis</label>
+                                        <input id="cartório" type="text" class="form-control" placeholder="" 
+                                            name="cartorio2">
                                     </div>
                                 </div>
                                 <div class="row form-group">
@@ -374,8 +454,8 @@
                                 </div>
                                 <div class="row form-group">
                                     <div class="form-check form-group">
-                                        <input class="form-check-input" type="checkbox" id="inlineCheckbox8"
-                                            value="option8" onclick="marcaDesmarca(this)" name="checkbox">
+                                        <input class="form-check-input" type="checkbox"
+                                            value="Concordo com as condições" name="checkboxFiador">
                                         <label class="form-check-label text-danger" for="inlineCheckbox8">Li e estou de
                                             acordo
                                             com
@@ -391,12 +471,11 @@
             </form>
         </div>
     </main>
-    <!-- <script src="js/icone.js"></script> -->
     <script src="js/jquery.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.11/jquery.mask.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-maskmoney/3.0.2/jquery.maskMoney.min.js"></script>
+    <script src="js/jquery.mask.min.js"></script>
+    <script src="js/jquery.maskMoney.min.js"></script>
     <script src="js/mascara.js"></script>
 
 </body>
