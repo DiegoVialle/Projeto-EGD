@@ -1,0 +1,27 @@
+﻿Dados do Locatário
+
+CPF: 122.222.222-22
+Nome: diego
+Tipo de Documento: RG
+Número: 123
+Órgão Exp.: detran
+Data de Emissão: 01/01/2010
+Data de Nascimento: 24/09/1989
+Nacionalidade: brasileiro
+Estado Civil: Casado
+Profissão: teste
+Telefone: (21) 3333-3333
+Celular: (21) 9999-99999
+E-mail: diegoflieger@hotmail.com
+CPF Conjuge: 123.333.333-33
+Vínculo Empregatício: Funcionário CLT
+Salário: R$ 0,02
+Rendimentos: R$ 0,02
+Empresa: teste
+Telefone Empresa: (21) 2222-2222
+Cep Atual: 21.222-222
+Referência: teste
+Telefone / Celular: (21) 2222-22222
+Concordo com Termos: Concordo com as condições
+-------------------------------------
+ 

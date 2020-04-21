@@ -1,0 +1,362 @@
+﻿Dados do Fiador
+
+CPF: 122.222.222-22
+Nome: test
+Tipo de Documento: RG
+Número: 123
+Órgão Exp.: detran
+Data de Emissão: 01/01/2000
+Data de Nascimento: 01/01/2000
+Nacionalidade: brasileiro
+Estado Civil: Solteiro
+Profissão: teste
+Telefone: (21) 2222-2222
+E-mail: diegoflieger@hotmail.com
+CPF Conjuge: 111.111.111-11
+Imóvel Caucionado 1
+
+Endereço: Rua A
+Número: 123
+Complemento: teste
+Bairro: teste
+Cidade: rj
+Cep: 21.222-222
+Inscrição IPTU: teste
+Cartório de Imóveis: teste
+Imóvel Caucionado 2
+
+Endereço: 
+Número: 
+Complemento: 
+Bairro: 
+Cidade: 
+Cep: 
+Inscrição IPTU: 
+Cartório de Imóveis: 
+Concordo com Termos: Concordo com as condições
+-------------------------------------
+ 
+Dados do Fiador
+
+CPF: 122.222.222-22
+Nome: test
+Tipo de Documento: RG
+Número: 123
+Órgão Exp.: detran
+Data de Emissão: 01/01/2000
+Data de Nascimento: 01/01/2000
+Nacionalidade: brasileiro
+Estado Civil: Solteiro
+Profissão: teste
+Telefone: (21) 2222-2222
+E-mail: diegoflieger@hotmail.com
+CPF Conjuge: 111.111.111-11
+Imóvel Caucionado 1
+
+Endereço: Rua A
+Número: 123
+Complemento: teste
+Bairro: teste
+Cidade: rj
+Cep: 21.222-222
+Inscrição IPTU: teste
+Cartório de Imóveis: teste
+Imóvel Caucionado 2
+
+Endereço: 
+Número: 
+Complemento: 
+Bairro: 
+Cidade: 
+Cep: 
+Inscrição IPTU: 
+Cartório de Imóveis: 
+Concordo com Termos: Concordo com as condições
+-------------------------------------
+ 
+Dados do Fiador
+
+CPF: 123.333.333-33
+Nome: teste
+Tipo de Documento: RG
+Número: 123
+Órgão Exp.: teste
+Data de Emissão: 12/22/2222
+Data de Nascimento: 24/09/1989
+Nacionalidade: brasileiro
+Estado Civil: Separado
+Profissão: teste
+Telefone: (21) 2222-2222
+E-mail: diegoflieger@hotmail.com
+CPF Conjuge: 121.111.111-11
+Imóvel Caucionado 1
+
+Endereço: Rua B
+Número: 123
+Complemento: teste
+Bairro: teste
+Cidade: rj
+Cep: 21.222-222
+Inscrição IPTU: teste
+Cartório de Imóveis: teste
+Imóvel Caucionado 2
+
+Endereço: 
+Número: 
+Complemento: 
+Bairro: 
+Cidade: 
+Cep: 
+Inscrição IPTU: 
+Cartório de Imóveis: 
+Concordo com Termos: Concordo com as condições
+-------------------------------------
+ 
+Dados do Fiador
+
+CPF: 123.333.333-33
+Nome: teste
+Tipo de Documento: RG
+Número: 123
+Órgão Exp.: teste
+Data de Emissão: 12/22/2222
+Data de Nascimento: 24/09/1989
+Nacionalidade: brasileiro
+Estado Civil: Separado
+Profissão: teste
+Telefone: (21) 2222-2222
+E-mail: diegoflieger@hotmail.com
+CPF Conjuge: 121.111.111-11
+Imóvel Caucionado 1
+
+Endereço: Rua B
+Número: 123
+Complemento: teste
+Bairro: teste
+Cidade: rj
+Cep: 21.222-222
+Inscrição IPTU: teste
+Cartório de Imóveis: teste
+Imóvel Caucionado 2
+
+Endereço: 
+Número: 
+Complemento: 
+Bairro: 
+Cidade: 
+Cep: 
+Inscrição IPTU: 
+Cartório de Imóveis: 
+Concordo com Termos: Concordo com as condições
+-------------------------------------
+ 
+Dados do Fiador
+
+CPF: 111.111.111-11
+Nome: teste
+Tipo de Documento: RG
+Número: 123
+Órgão Exp.: teste
+Data de Emissão: 12/03/2010
+Data de Nascimento: 04/04/2000
+Nacionalidade: brasil
+Estado Civil: Solteiro
+Profissão: teste
+Telefone: (21) 2222-2222
+E-mail: diegoflieger@hotmail.com
+CPF Conjuge: 111.111.111-11
+Imóvel Caucionado 1
+
+Endereço: teste
+Número: 123
+Complemento: teste
+Bairro: teste
+Cidade: rj
+Cep: 21.111-111
+Inscrição IPTU: teste
+Cartório de Imóveis: teste
+Imóvel Caucionado 2
+
+Endereço: 
+Número: 
+Complemento: 
+Bairro: 
+Cidade: 
+Cep: 
+Inscrição IPTU: 
+Cartório de Imóveis: 
+Concordo com Termos: Concordo com as condições
+-------------------------------------
+ 
+Dados do Fiador
+
+CPF: 111.111.111-11
+Nome: teste
+Tipo de Documento: RG
+Número: 123
+Órgão Exp.: teste
+Data de Emissão: 12/03/2010
+Data de Nascimento: 04/04/2000
+Nacionalidade: brasil
+Estado Civil: Solteiro
+Profissão: teste
+Telefone: (21) 2222-2222
+E-mail: diegoflieger@hotmail.com
+CPF Conjuge: 111.111.111-11
+Imóvel Caucionado 1
+
+Endereço: teste
+Número: 123
+Complemento: teste
+Bairro: teste
+Cidade: rj
+Cep: 21.111-111
+Inscrição IPTU: teste
+Cartório de Imóveis: teste
+Imóvel Caucionado 2
+
+Endereço: 
+Número: 
+Complemento: 
+Bairro: 
+Cidade: 
+Cep: 
+Inscrição IPTU: 
+Cartório de Imóveis: 
+Concordo com Termos: Concordo com as condições
+-------------------------------------
+ 
+Dados do Fiador
+
+CPF: 111.111.111-11
+Nome: teste
+Tipo de Documento: RG
+Número: 123
+Órgão Exp.: teste
+Data de Emissão: 12/03/2010
+Data de Nascimento: 04/04/2000
+Nacionalidade: brasil
+Estado Civil: Solteiro
+Profissão: teste
+Telefone: (21) 2222-2222
+E-mail: diegoflieger@hotmail.com
+CPF Conjuge: 111.111.111-11
+Imóvel Caucionado 1
+
+Endereço: teste
+Número: 123
+Complemento: teste
+Bairro: teste
+Cidade: rj
+Cep: 21.111-111
+Inscrição IPTU: teste
+Cartório de Imóveis: teste
+Imóvel Caucionado 2
+
+Endereço: Rua C
+Número: 123
+Complemento: teste
+Bairro: teste
+Cidade: rj
+Cep: 21.111-111
+Inscrição IPTU: teste
+Cartório de Imóveis: teste
+Concordo com Termos: Concordo com as condições
+-------------------------------------
+ 
+Dados do Fiador
+
+CPF: 111.111.111-11
+Nome: teste
+Tipo de Documento: RG
+Número: 123
+Órgão Exp.: teste
+Data de Emissão: 12/03/2010
+Data de Nascimento: 04/04/2000
+Nacionalidade: brasil
+Estado Civil: Solteiro
+Profissão: teste
+Telefone: (21) 2222-2222
+E-mail: diegoflieger@hotmail.com
+CPF Conjuge: 111.111.111-11
+Imóvel Caucionado 1
+
+Endereço: teste
+Número: 123
+Complemento: teste
+Bairro: teste
+Cidade: rj
+Cep: 21.111-111
+Inscrição IPTU: teste
+Cartório de Imóveis: teste
+Concordo com Termos: Concordo com as condições
+-------------------------------------
+ 
+Dados do Fiador
+
+CPF: 111.111.111-11
+Nome: teste
+Tipo de Documento: RG
+Número: 123
+Órgão Exp.: teste
+Data de Emissão: 12/03/2010
+Data de Nascimento: 04/04/2000
+Nacionalidade: brasil
+Estado Civil: Solteiro
+Profissão: teste
+Telefone: (21) 2222-2222
+E-mail: diegoflieger@hotmail.com
+CPF Conjuge: 111.111.111-11
+
+Imóvel Caucionado 1
+
+Endereço: teste
+Número: 123
+Complemento: teste
+Bairro: teste
+Cidade: rj
+Cep: 21.111-111
+Inscrição IPTU: teste
+Cartório de Imóveis: teste
+Concordo com Termos: Concordo com as condições
+-------------------------------------
+ 
+Dados do Fiador
+
+CPF: 111.111.111-11
+Nome: teste
+Tipo de Documento: RG
+Número: 123
+Órgão Exp.: teste
+Data de Emissão: 12/03/2010
+Data de Nascimento: 04/04/2000
+Nacionalidade: brasil
+Estado Civil: Solteiro
+Profissão: teste
+Telefone: (21) 2222-2222
+E-mail: diegoflieger@hotmail.com
+CPF Conjuge: 111.111.111-11
+Imóvel Caucionado 1
+
+Endereço: teste
+Número: 123
+Complemento: teste
+Bairro: teste
+Cidade: rj
+Cep: 21.111-111
+Inscrição IPTU: teste
+Cartório de Imóveis: teste
+Concordo com Termos: Concordo com as condições
+Imóvel Caucionado 2
+
+Endereço: rua B
+Número: 1234
+Complemento: teste
+Bairro: teste
+Cidade: teste
+Cep: 21.222-222
+Inscrição IPTU: teste
+Cartório de Imóveis: teste
+Concordo com Termos: Concordo com as condições
+-------------------------------------
+ 
